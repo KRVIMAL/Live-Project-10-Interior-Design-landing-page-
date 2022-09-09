@@ -8,7 +8,7 @@ It took me 4 hours to complete.
 2. How to create blury effect.
 5. Background Images
 
-[![main page clickable image](./assets/images/interior-design-landing-page.png "main page")](https://product-landing-page15.netlify.app/)
+[![main page clickable image](./assets/images/interior-design-landing-page.png "main page")](https://interiordesignlandingpage.netlify.app/)
 
 
-  ##### [Click here to view live project](https://product-landing-page15.netlify.app/ "click here to view page")
+  ##### [Click here to view live project](https://interiordesignlandingpage.netlify.app/ "click here to view page")
