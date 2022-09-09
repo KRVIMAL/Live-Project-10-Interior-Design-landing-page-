@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --pure:#FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body body {
+  background: url("../images/Background.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  background: url("../images/Background.jpg") no-repeat fixed;
+  background-size: cover;
+  padding: 10px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--pure);
+}
+
+nav .nav-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .col-left {
+  width: 60%;
+}
+
+main .col-left h1 {
+  font-family: 'Roboto',sans-serif;
+  font-size: 3.5rem;
+}
+
+main .col-left button {
+  color: var(--pure);
+  font-size: 1.3rem;
+  padding: 1rem 1.5rem;
+  font-weight: 400;
+  border-radius: 2rem;
+  background: transparent;
+  outline: none;
+  border: 2px solid var(--pure);
+  cursor: pointer;
+}
+
+main .col-right {
+  width: 40%;
+}
+
+main .col-right .card {
+  width: 200px;
+  height: 120px;
+  font-size: 0.9rem;
+  font-family: 'Roboto',sans-serif;
+  background: rgba(255, 255, 255, 0.1);
+  /* background:linear-gradient(135deg,rgba(0,0,0,0.1),rgba(0,0,0,0));
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter:blur(10px); */
+  padding: 1rem;
+}
+
+main .col-right .card .icon-img {
+  width: 70px;
+  border-radius: 1.2rem;
+  background: var(--pure);
+}
+
+main .col-right .card .icon-img img {
+  padding: 0.3rem 1rem;
+  width: 50px;
+}
+
+main .col-right .card .card-1 {
+  position: absolute;
+  top: 30%;
+  left: 78%;
+}
+
+main .col-right .card .card-1 .line-1 {
+  position: absolute;
+  margin-top: 7px;
+  left: 50%;
+  background: var(--pure);
+  width: 1px;
+  height: 50px;
+}
+
+main .col-right .card .card-1 .sphere-1 {
+  position: absolute;
+  margin-top: 50px;
+  left: 47%;
+  background: var(--pure);
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+}
+
+main .col-right .card .card-2 {
+  position: absolute;
+  top: 70%;
+  left: 58%;
+}
+
+main .col-right .card .card-2 .line-2 {
+  position: absolute;
+  margin-top: 7px;
+  top: 50%;
+  right: -21%;
+  background: var(--pure);
+  width: 50px;
+  height: 1px;
+}
+
+main .col-right .card .card-2 .sphere-2 {
+  position: absolute;
+  top: 50%;
+  right: -27%;
+  background: var(--pure);
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+}
+/*# sourceMappingURL=main.css.map */
