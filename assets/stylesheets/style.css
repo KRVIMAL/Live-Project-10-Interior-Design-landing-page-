@@ -242,18 +242,20 @@ justify-items: center;
   section h1{
     font-family: 'Roboto',sans-serif;
     font-size:2rem;
+    margin-top: -2rem;
   }
   section .col-right .card-1{
     position: relative;
-     top: 0%;
+     top:0%;
     left:0% ;
-    margin:6rem 0;
+    margin:4rem 0;
     
   }
   section .col-right .card-2{
     position: relative;
     top:0%;
-    left:0% 
+    left:0% ;
+    margin:3rem 0;
   }
 
 }
